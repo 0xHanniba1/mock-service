@@ -1,0 +1,36 @@
+[
+  {
+    "id": "663bfce2",
+    "path": "/mock/sms/send",
+    "method": "POST",
+    "description": "模拟短信发送",
+    "response_body": {
+      "success": true,
+      "msg_id": "SMS123"
+    },
+    "status_code": 200,
+    "delay": 0.0
+  },
+  {
+    "id": "e1630f1f",
+    "path": "/mock/weather/today",
+    "method": "GET",
+    "description": "获取今日天气",
+    "response_body": {
+      "city": "上海",
+      "temp": "15℃",
+      "weather": "晴"
+    },
+    "status_code": 200,
+    "delay": 0.0
+  },
+  {
+    "id": "2f8a553f",
+    "path": "/mock/testzk",
+    "method": "GET",
+    "description": "testzk",
+    "response_body": {},
+    "status_code": 200,
+    "delay": 0.0
+  }
+]

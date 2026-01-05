@@ -1,0 +1,9 @@
+services:
+  mock-service:
+    build: .
+    container_name: mock-service
+    ports:
+      - "9000:8000"
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
